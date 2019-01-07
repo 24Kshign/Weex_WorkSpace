@@ -1,0 +1,4 @@
+#Wed Oct 24 14:17:52 CST 2018
+base.0=/Users/user/Documents/Weex_WorkSpace/test0/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

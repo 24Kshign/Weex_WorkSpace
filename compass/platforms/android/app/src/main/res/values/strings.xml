@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">WEEX APP</string>
+    <string name="dummy_content">Hello
+Weex</string>
+    <string name="capture_qrcode_prompt" translatable="false">请将条码置于取景框内扫描</string>
+    <string name="cpu_not_support_tip" translatable="false">Sorry, your current device is x86 architecture.\n We only
+        support arm architecture devices!
+    </string>
+    <string name="index_tip" translatable="false">Network Error!\n1.Make sure you use the command "npm run serve"
+        launched local service\n2.Make sure you modify "your_current_ip" to your local IP in
+        "WXMainActivity"
+    </string>
+    <string name="scan_qr_code" translatable="false">扫码</string>
+    <string name="page_refresh" translatable="false">刷新</string>
+    <string name="albums_take_picture">拍摄照片</string>
+    <string name="image_viewer_indicator">%1$d/%2$d</string>
+    <string name="title_text_import_limit">（%1$s/%2$s）导入</string>
+    <string name="title_text_import">（%s）导入</string>
+</resources>

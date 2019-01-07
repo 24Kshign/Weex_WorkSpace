@@ -1,0 +1,79 @@
+# ------General
+.DS_Store
+.idea/*
+.temp/*
+
+build/
+
+fastlanelog/*
+fastlane/README.md
+fastlane/report.xml
+
+# ------Android
+*.iml
+.gradle
+/local.properties
+/build
+*/build
+.idea
+
+# Built application files
+*.apk
+*.ap_
+*.aar
+
+# Gradle files
+.gradle/
+gradle/
+gradleconf/
+
+# Local configuration file (sdk path, etc)
+local.properties
+#tinker的临时文件
+tinkerTemp/
+#bugly的日志文件
+*/bugly
+
+/captures/
+
+# -----iOS
+## Build generated
+DerivedData/
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+## Other
+*.moved-aside
+*.xcuserstate
+
+# CocoaPods
+Pods/*
+Podfile.lock
+
+
+# -----Web
+# dependencies
+/node_modules
+node_modules
+bower_components/*
+# production
+/dist/*
+/public
+/logs
+npm-debug.log*
+assets_cache.json
+launch.json
+sakura.resources.json
+*.swp
+routes/.cacheValue
+minidb/cacheValue
+yarn-error.log

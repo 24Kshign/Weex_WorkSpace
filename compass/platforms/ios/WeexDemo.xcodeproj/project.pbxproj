@@ -1,0 +1,1134 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041A0AB1216B4DFB0031C128 /* WXImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 041A0AB0216B4DFB0031C128 /* WXImagePicker.m */; };
+		04E5DC5D213E80B100D67EC9 /* DebugAnzlyzer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E5DC52213E80B100D67EC9 /* DebugAnzlyzer.m */; };
+		04E5DC5E213E80B100D67EC9 /* WXATLoggerPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E5DC55213E80B100D67EC9 /* WXATLoggerPlugin.m */; };
+		04E5DC5F213E80B100D67EC9 /* WXATViewHierarchyPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E5DC57213E80B100D67EC9 /* WXATViewHierarchyPlugin.m */; };
+		04E5DC60213E80B100D67EC9 /* WXScannerHistoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E5DC59213E80B100D67EC9 /* WXScannerHistoryVC.m */; };
+		04E5DC61213E80B100D67EC9 /* WXScannerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E5DC5C213E80B100D67EC9 /* WXScannerVC.m */; };
+		04E5DC64213E81E800D67EC9 /* WXATScannerPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E5DC63213E81E800D67EC9 /* WXATScannerPlugin.m */; };
+		0A3122AF1E1F41E30041B972 /* WeexSDKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3122AC1E1F41E30041B972 /* WeexSDKManager.m */; };
+		0A4A05F91E0405070046E1BE /* UIViewController+WXDemoNaviBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4A05F41E0405070046E1BE /* UIViewController+WXDemoNaviBar.m */; };
+		0A4A05FA1E0405070046E1BE /* WXDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4A05F61E0405070046E1BE /* WXDemoViewController.m */; };
+		0A7758D71EA0D39C00AE9815 /* WXImgLoaderDefaultImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7758D61EA0D39C00AE9815 /* WXImgLoaderDefaultImpl.m */; };
+		0A86901F1E1E7872000A3F81 /* WeexDemo-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A86901E1E1E7872000A3F81 /* WeexDemo-Info.plist */; };
+		0A996E0A1E249DAF0055CB7E /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A996E091E249DAF0055CB7E /* libstdc++.tbd */; };
+		0AE277DC1DE56A5600C6D86A /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0AE277DB1DE56A5600C6D86A /* config.xml */; };
+		59EA0DA71D2E7D19004F904A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59EA0DA61D2E7D19004F904A /* Images.xcassets */; };
+		775BEE801C1E8ECC008D1629 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 775BEE7F1C1E8ECC008D1629 /* main.m */; };
+		775BEE831C1E8ECC008D1629 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 775BEE821C1E8ECC008D1629 /* AppDelegate.m */; };
+		775BEE8B1C1E8ECC008D1629 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 775BEE8A1C1E8ECC008D1629 /* Assets.xcassets */; };
+		775BEE991C1E8ECC008D1629 /* WeexDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 775BEE981C1E8ECC008D1629 /* WeexDemoTests.m */; };
+		8089EC8F629FC68ED33EE194 /* libPods-WeexDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B16099883D828D1227C710E2 /* libPods-WeexDemo.a */; };
+		D3DB97659EA84DC3ADEFA660 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B116DBF2254E48A0816816AE /* ImageIO.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		D5FFB0F3F6F246E9A93F5369 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983B223F3951480F8D2048E3 /* CoreLocation.framework */; };
+		DC5E503E1D0D97130059F0EB /* weex.png in Resources */ = {isa = PBXBuildFile; fileRef = DC5E503C1D0D97130059F0EB /* weex.png */; };
+		DC5E503F1D0D97130059F0EB /* weex@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC5E503D1D0D97130059F0EB /* weex@2x.png */; };
+		DC65C4FA1CEB032F00B2F84F /* bundlejs in Resources */ = {isa = PBXBuildFile; fileRef = DC65C4F91CEB032F00B2F84F /* bundlejs */; };
+		DC6DD9D21CFE9BC400549297 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7475ACA01CD8444A0044E96C /* libsqlite3.0.tbd */; };
+		DCD286E01CF491AC00C601CA /* weex-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DCD286DF1CF491AC00C601CA /* weex-icon.png */; };
+		ECD914D77E3545D298280280 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BECB15C78BC5454C86CFBC04 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		775BEE951C1E8ECC008D1629 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 775BEE731C1E8ECC008D1629 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 775BEE7A1C1E8ECC008D1629;
+			remoteInfo = WeexDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		041A0AAF216B4DFB0031C128 /* WXImagePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXImagePicker.h; sourceTree = "<group>"; };
+		041A0AB0216B4DFB0031C128 /* WXImagePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXImagePicker.m; sourceTree = "<group>"; };
+		04E5DC52213E80B100D67EC9 /* DebugAnzlyzer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugAnzlyzer.m; sourceTree = "<group>"; };
+		04E5DC53213E80B100D67EC9 /* DebugAnalyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugAnalyzer.h; sourceTree = "<group>"; };
+		04E5DC54213E80B100D67EC9 /* WXATViewHierarchyPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXATViewHierarchyPlugin.h; sourceTree = "<group>"; };
+		04E5DC55213E80B100D67EC9 /* WXATLoggerPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXATLoggerPlugin.m; sourceTree = "<group>"; };
+		04E5DC56213E80B100D67EC9 /* WXATLoggerPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXATLoggerPlugin.h; sourceTree = "<group>"; };
+		04E5DC57213E80B100D67EC9 /* WXATViewHierarchyPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXATViewHierarchyPlugin.m; sourceTree = "<group>"; };
+		04E5DC59213E80B100D67EC9 /* WXScannerHistoryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXScannerHistoryVC.m; sourceTree = "<group>"; };
+		04E5DC5A213E80B100D67EC9 /* WXScannerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXScannerVC.h; sourceTree = "<group>"; };
+		04E5DC5B213E80B100D67EC9 /* WXScannerHistoryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXScannerHistoryVC.h; sourceTree = "<group>"; };
+		04E5DC5C213E80B100D67EC9 /* WXScannerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXScannerVC.m; sourceTree = "<group>"; };
+		04E5DC62213E81E800D67EC9 /* WXATScannerPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXATScannerPlugin.h; sourceTree = "<group>"; };
+		04E5DC63213E81E800D67EC9 /* WXATScannerPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXATScannerPlugin.m; sourceTree = "<group>"; };
+		0A3122AB1E1F41E30041B972 /* WeexSDKManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeexSDKManager.h; sourceTree = "<group>"; };
+		0A3122AC1E1F41E30041B972 /* WeexSDKManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeexSDKManager.m; sourceTree = "<group>"; };
+		0A4A05F31E0405070046E1BE /* UIViewController+WXDemoNaviBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WXDemoNaviBar.h"; sourceTree = "<group>"; };
+		0A4A05F41E0405070046E1BE /* UIViewController+WXDemoNaviBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+WXDemoNaviBar.m"; sourceTree = "<group>"; };
+		0A4A05F51E0405070046E1BE /* WXDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXDemoViewController.h; sourceTree = "<group>"; };
+		0A4A05F61E0405070046E1BE /* WXDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXDemoViewController.m; sourceTree = "<group>"; };
+		0A7758D51EA0D39C00AE9815 /* WXImgLoaderDefaultImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXImgLoaderDefaultImpl.h; sourceTree = "<group>"; };
+		0A7758D61EA0D39C00AE9815 /* WXImgLoaderDefaultImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXImgLoaderDefaultImpl.m; sourceTree = "<group>"; };
+		0A86901E1E1E7872000A3F81 /* WeexDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "WeexDemo-Info.plist"; sourceTree = "<group>"; };
+		0A996E091E249DAF0055CB7E /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		0AE277DB1DE56A5600C6D86A /* config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = config.xml; sourceTree = "<group>"; };
+		0B4FAFDE2AD89EAFD12DB8C2 /* Pods-WeexUITestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeexUITestDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeexUITestDemo/Pods-WeexUITestDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		37DB381D5815C06F147D4D51 /* Pods-WeexDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeexDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeexDemo/Pods-WeexDemo.release.xcconfig"; sourceTree = "<group>"; };
+		59EA0DA61D2E7D19004F904A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7453E3641C9FA971001EB427 /* DemoDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoDefine.h; sourceTree = "<group>"; };
+		7475ACA01CD8444A0044E96C /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		775BEE7B1C1E8ECC008D1629 /* WeexDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeexDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		775BEE7F1C1E8ECC008D1629 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		775BEE811C1E8ECC008D1629 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		775BEE821C1E8ECC008D1629 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		775BEE8A1C1E8ECC008D1629 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		775BEE941C1E8ECC008D1629 /* WeexDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeexDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		775BEE981C1E8ECC008D1629 /* WeexDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeexDemoTests.m; sourceTree = "<group>"; };
+		775BEE9A1C1E8ECC008D1629 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		835DE5CE4D0CD132AAC64A27 /* libPods-WeexUITestDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeexUITestDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84361D761CA10F8F00F43825 /* WeexUITestDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "WeexUITestDemo-Info.plist"; path = "/Users/admin/Documents/03_project_git/01_Weex/weex-samples/ios/WeexUITestDemo-Info.plist"; sourceTree = "<absolute>"; };
+		983B223F3951480F8D2048E3 /* CoreLocation.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A79EA8D70DAC9F1341C9E5F7 /* Pods-WeexUITestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeexUITestDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeexUITestDemo/Pods-WeexUITestDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B116DBF2254E48A0816816AE /* ImageIO.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		B16099883D828D1227C710E2 /* libPods-WeexDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeexDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BECB15C78BC5454C86CFBC04 /* AVFoundation.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DC5E503C1D0D97130059F0EB /* weex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weex.png; sourceTree = "<group>"; };
+		DC5E503D1D0D97130059F0EB /* weex@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weex@2x.png"; sourceTree = "<group>"; };
+		DC65C4F91CEB032F00B2F84F /* bundlejs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bundlejs; sourceTree = "<group>"; };
+		DCD286DF1CF491AC00C601CA /* weex-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "weex-icon.png"; path = "WeexDemo/weex-icon.png"; sourceTree = "<group>"; };
+		E838291E72D02CC3C36A86A4 /* Pods-WeexDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeexDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeexDemo/Pods-WeexDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		775BEE781C1E8ECC008D1629 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A996E0A1E249DAF0055CB7E /* libstdc++.tbd in Frameworks */,
+				DC6DD9D21CFE9BC400549297 /* libsqlite3.0.tbd in Frameworks */,
+				D3DB97659EA84DC3ADEFA660 /* ImageIO.framework in Frameworks */,
+				D5FFB0F3F6F246E9A93F5369 /* CoreLocation.framework in Frameworks */,
+				ECD914D77E3545D298280280 /* AVFoundation.framework in Frameworks */,
+				8089EC8F629FC68ED33EE194 /* libPods-WeexDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775BEE911C1E8ECC008D1629 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041A0AAC216B45350031C128 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		041A0AAD216B453E0031C128 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				041A0AAF216B4DFB0031C128 /* WXImagePicker.h */,
+				041A0AB0216B4DFB0031C128 /* WXImagePicker.m */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		041A0AAE216B48D60031C128 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				0A7758D51EA0D39C00AE9815 /* WXImgLoaderDefaultImpl.h */,
+				0A7758D61EA0D39C00AE9815 /* WXImgLoaderDefaultImpl.m */,
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		04E5DC51213E80B100D67EC9 /* debug */ = {
+			isa = PBXGroup;
+			children = (
+				04E5DC53213E80B100D67EC9 /* DebugAnalyzer.h */,
+				04E5DC52213E80B100D67EC9 /* DebugAnzlyzer.m */,
+				04E5DC56213E80B100D67EC9 /* WXATLoggerPlugin.h */,
+				04E5DC55213E80B100D67EC9 /* WXATLoggerPlugin.m */,
+				04E5DC54213E80B100D67EC9 /* WXATViewHierarchyPlugin.h */,
+				04E5DC57213E80B100D67EC9 /* WXATViewHierarchyPlugin.m */,
+				04E5DC62213E81E800D67EC9 /* WXATScannerPlugin.h */,
+				04E5DC63213E81E800D67EC9 /* WXATScannerPlugin.m */,
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		04E5DC58213E80B100D67EC9 /* Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				04E5DC5A213E80B100D67EC9 /* WXScannerVC.h */,
+				04E5DC5C213E80B100D67EC9 /* WXScannerVC.m */,
+				04E5DC5B213E80B100D67EC9 /* WXScannerHistoryVC.h */,
+				04E5DC59213E80B100D67EC9 /* WXScannerHistoryVC.m */,
+			);
+			path = Scanner;
+			sourceTree = "<group>";
+		};
+		0A3122A61E1F41E30041B972 /* WeexConfig */ = {
+			isa = PBXGroup;
+			children = (
+				041A0AAD216B453E0031C128 /* Module */,
+				041A0AAC216B45350031C128 /* Component */,
+				041A0AAE216B48D60031C128 /* Handler */,
+				0A3122AB1E1F41E30041B972 /* WeexSDKManager.h */,
+				0A3122AC1E1F41E30041B972 /* WeexSDKManager.m */,
+			);
+			path = WeexConfig;
+			sourceTree = "<group>";
+		};
+		0A4A05F21E0405070046E1BE /* WeexScanner */ = {
+			isa = PBXGroup;
+			children = (
+				0A4A05F31E0405070046E1BE /* UIViewController+WXDemoNaviBar.h */,
+				0A4A05F41E0405070046E1BE /* UIViewController+WXDemoNaviBar.m */,
+				0A4A05F51E0405070046E1BE /* WXDemoViewController.h */,
+				0A4A05F61E0405070046E1BE /* WXDemoViewController.m */,
+			);
+			path = WeexScanner;
+			sourceTree = "<group>";
+		};
+		327BB19797F63D5309FB91BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A996E091E249DAF0055CB7E /* libstdc++.tbd */,
+				7475ACA01CD8444A0044E96C /* libsqlite3.0.tbd */,
+				B116DBF2254E48A0816816AE /* ImageIO.framework */,
+				983B223F3951480F8D2048E3 /* CoreLocation.framework */,
+				BECB15C78BC5454C86CFBC04 /* AVFoundation.framework */,
+				B16099883D828D1227C710E2 /* libPods-WeexDemo.a */,
+				835DE5CE4D0CD132AAC64A27 /* libPods-WeexUITestDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74CC79EC1C2B9FC600829368 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				D5ADF0861C77133B00597CA6 /* Source */,
+			);
+			name = Demo;
+			sourceTree = "<group>";
+		};
+		7724B0E5483AD1B4028A76F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E838291E72D02CC3C36A86A4 /* Pods-WeexDemo.debug.xcconfig */,
+				37DB381D5815C06F147D4D51 /* Pods-WeexDemo.release.xcconfig */,
+				0B4FAFDE2AD89EAFD12DB8C2 /* Pods-WeexUITestDemo.debug.xcconfig */,
+				A79EA8D70DAC9F1341C9E5F7 /* Pods-WeexUITestDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		775BEE721C1E8ECC008D1629 = {
+			isa = PBXGroup;
+			children = (
+				775BEE7D1C1E8ECC008D1629 /* WeexDemo */,
+				775BEE971C1E8ECC008D1629 /* WeexDemoTests */,
+				775BEE7C1C1E8ECC008D1629 /* Products */,
+				327BB19797F63D5309FB91BF /* Frameworks */,
+				DC65C4421CEB006C00B2F84F /* resource */,
+				84361D761CA10F8F00F43825 /* WeexUITestDemo-Info.plist */,
+				7724B0E5483AD1B4028A76F2 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		775BEE7C1C1E8ECC008D1629 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				775BEE7B1C1E8ECC008D1629 /* WeexDemo.app */,
+				775BEE941C1E8ECC008D1629 /* WeexDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		775BEE7D1C1E8ECC008D1629 /* WeexDemo */ = {
+			isa = PBXGroup;
+			children = (
+				74CC79EC1C2B9FC600829368 /* Demo */,
+				775BEE8A1C1E8ECC008D1629 /* Assets.xcassets */,
+				0AE277DB1DE56A5600C6D86A /* config.xml */,
+				0A86901E1E1E7872000A3F81 /* WeexDemo-Info.plist */,
+				59EA0DA61D2E7D19004F904A /* Images.xcassets */,
+				775BEE7E1C1E8ECC008D1629 /* Supporting Files */,
+			);
+			path = WeexDemo;
+			sourceTree = "<group>";
+		};
+		775BEE7E1C1E8ECC008D1629 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				775BEE7F1C1E8ECC008D1629 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		775BEE971C1E8ECC008D1629 /* WeexDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				775BEE981C1E8ECC008D1629 /* WeexDemoTests.m */,
+				775BEE9A1C1E8ECC008D1629 /* Info.plist */,
+			);
+			path = WeexDemoTests;
+			sourceTree = "<group>";
+		};
+		D5ADF0861C77133B00597CA6 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				04E5DC51213E80B100D67EC9 /* debug */,
+				04E5DC58213E80B100D67EC9 /* Scanner */,
+				0A4A05F21E0405070046E1BE /* WeexScanner */,
+				0A3122A61E1F41E30041B972 /* WeexConfig */,
+				775BEE811C1E8ECC008D1629 /* AppDelegate.h */,
+				775BEE821C1E8ECC008D1629 /* AppDelegate.m */,
+				7453E3641C9FA971001EB427 /* DemoDefine.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		DC65C4421CEB006C00B2F84F /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				DCD286DF1CF491AC00C601CA /* weex-icon.png */,
+				DC5E503C1D0D97130059F0EB /* weex.png */,
+				DC5E503D1D0D97130059F0EB /* weex@2x.png */,
+				DC65C4F91CEB032F00B2F84F /* bundlejs */,
+			);
+			name = resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		775BEE7A1C1E8ECC008D1629 /* WeexDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 775BEEA81C1E8ECC008D1629 /* Build configuration list for PBXNativeTarget "WeexDemo" */;
+			buildPhases = (
+				1F453D69EC5D03D04B45DC64 /* [CP] Check Pods Manifest.lock */,
+				0A2546EC1E00EDC5008B7C9F /* Bundle deploy server */,
+				775BEE771C1E8ECC008D1629 /* Sources */,
+				775BEE781C1E8ECC008D1629 /* Frameworks */,
+				775BEE791C1E8ECC008D1629 /* Resources */,
+				D9624F4C87A45AAAC0E262BE /* [CP] Embed Pods Frameworks */,
+				CF8C1292E28B7875CCFB0BE7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeexDemo;
+			productName = WeexDemo;
+			productReference = 775BEE7B1C1E8ECC008D1629 /* WeexDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		775BEE931C1E8ECC008D1629 /* WeexDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 775BEEAB1C1E8ECC008D1629 /* Build configuration list for PBXNativeTarget "WeexDemoTests" */;
+			buildPhases = (
+				775BEE901C1E8ECC008D1629 /* Sources */,
+				775BEE911C1E8ECC008D1629 /* Frameworks */,
+				775BEE921C1E8ECC008D1629 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				775BEE961C1E8ECC008D1629 /* PBXTargetDependency */,
+			);
+			name = WeexDemoTests;
+			productName = WeexDemoTests;
+			productReference = 775BEE941C1E8ECC008D1629 /* WeexDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		775BEE731C1E8ECC008D1629 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MHCWMT;
+				LastUpgradeCheck = 710;
+				ORGANIZATIONNAME = mhc;
+				TargetAttributes = {
+					775BEE7A1C1E8ECC008D1629 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 65DNB2EBLB;
+						ProvisioningStyle = Automatic;
+					};
+					775BEE931C1E8ECC008D1629 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 445VCMGQD2;
+						TestTargetID = 775BEE7A1C1E8ECC008D1629;
+					};
+				};
+			};
+			buildConfigurationList = 775BEE761C1E8ECC008D1629 /* Build configuration list for PBXProject "WeexDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 775BEE721C1E8ECC008D1629;
+			productRefGroup = 775BEE7C1C1E8ECC008D1629 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				775BEE7A1C1E8ECC008D1629 /* WeexDemo */,
+				775BEE931C1E8ECC008D1629 /* WeexDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		775BEE791C1E8ECC008D1629 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC5E503E1D0D97130059F0EB /* weex.png in Resources */,
+				DC5E503F1D0D97130059F0EB /* weex@2x.png in Resources */,
+				DCD286E01CF491AC00C601CA /* weex-icon.png in Resources */,
+				59EA0DA71D2E7D19004F904A /* Images.xcassets in Resources */,
+				0A86901F1E1E7872000A3F81 /* WeexDemo-Info.plist in Resources */,
+				0AE277DC1DE56A5600C6D86A /* config.xml in Resources */,
+				DC65C4FA1CEB032F00B2F84F /* bundlejs in Resources */,
+				775BEE8B1C1E8ECC008D1629 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775BEE921C1E8ECC008D1629 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A2546EC1E00EDC5008B7C9F /* Bundle deploy server */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle deploy server";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "case \"$CONFIGURATION\" in\n  Debug)\n  # Speed up build times by skipping the creation of the offline package for debug\n  # builds on the simulator since the packager is supposed to be running anyways.\n    if [[ \"$PLATFORM_NAME\" == *simulator ]]; then\n      echo \"Skipping bundling for Simulator platform\"\n      exit 0;\n    fi\n\n    DEV=true\n    ;;\n  \"\")\n    echo \"$0 must be invoked by Xcode\"\n    exit 1\n    ;;\n  *)\n    DEV=false\n    ;;\nesac\n\nset -x\nDEST=$CONFIGURATION_BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH\n\nif [[ \"$CONFIGURATION\" = \"Debug\" && ! \"$PLATFORM_NAME\" == *simulator ]];\nthen\n  PLISTBUDDY='/usr/libexec/PlistBuddy'\n  PLIST=$TARGET_BUILD_DIR/$INFOPLIST_PATH\n  IP=$(ipconfig getifaddr en0)\n  if [ -z \"$IP\" ]; then\n    IP=$(ifconfig | grep 'inet ' | grep -v 127.0.0.1 | cut -d\\   -f2  | awk 'NR==1{print $1}')\n  fi\n  $PLISTBUDDY -c \"Add NSAppTransportSecurity:NSExceptionDomains:localhost:NSTemporaryExceptionAllowsInsecureHTTPLoads bool true\" \"$PLIST\"\n  $PLISTBUDDY -c \"Add NSAppTransportSecurity:NSExceptionDomains:$IP.xip.io:NSTemporaryExceptionAllowsInsecureHTTPLoads bool true\" \"$PLIST\"\n  echo $IP > \"$DEST/ip.txt\"\nfi\n\n";
+		};
+		1F453D69EC5D03D04B45DC64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeexDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF8C1292E28B7875CCFB0BE7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WeexDemo/Pods-WeexDemo-resources.sh",
+				"${PODS_ROOT}/ATSDK-Weex/ATSDK.framework/Versions/A/Resources/ATSDK.bundle",
+				"${PODS_ROOT}/ATSDK-Weex/ATSDK.framework/Versions/A/Resources/en.lproj",
+				"${PODS_ROOT}/ATSDK-Weex/ATSDK.framework/Versions/A/Resources/zh-Hans.lproj",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/CarSourceDetail/Contents.json",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/CarSourceDetail/delete_photo.imageset/Contents.json",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/CarSourceDetail/delete_photo.imageset/delete_photo@2x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/CarSourceDetail/delete_photo.imageset/delete_photo@3x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/CarSourceDetail/publish_badge.imageset/Contents.json",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/CarSourceDetail/publish_badge.imageset/Group 9@3x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/CarSourceDetail/publish_badge.imageset/publish_badge@2x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/CarSourceDetail/publish_cancel.imageset/Contents.json",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/CarSourceDetail/publish_cancel.imageset/Group 7@2x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/CarSourceDetail/publish_cancel.imageset/publish_cancel@3x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/common/add_photo_icon.imageset/add_photo_icon@2x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/common/add_photo_icon.imageset/add_photo_icon@3x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/common/add_photo_icon.imageset/Contents.json",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/common/cell_arrow.imageset/Contents.json",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/common/cell_arrow.imageset/Group 29@2x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/common/cell_arrow.imageset/Group 29@3x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/common/checked_icon.imageset/Contents.json",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/common/checked_icon.imageset/Rectangle 213 Copy + Rectangle 212 + Rectangle 212 Copy Copy@2x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/common/checked_icon.imageset/Rectangle 213 Copy + Rectangle 212 + Rectangle 212 Copy Copy@3x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/common/Contents.json",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/common/delete_photo_icon.imageset/Contents.json",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/common/delete_photo_icon.imageset/delete_photo_icon@2x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/common/delete_photo_icon.imageset/delete_photo_icon@3x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/common/icon_gps.imageset/Contents.json",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/common/icon_gps.imageset/icon_gps@2x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/common/icon_gps.imageset/icon_gps@3x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/common/no_image.imageset/Contents.json",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/common/no_image.imageset/no_image@2x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/common/no_image.imageset/no_image@3x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/common/no_network.imageset/Contents.json",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/common/no_network.imageset/no_network@2x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/common/no_network.imageset/no_network@3x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/common/triangle_icon_off.imageset/Contents.json",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/common/triangle_icon_off.imageset/small_gray_triangle@2x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/common/triangle_icon_off.imageset/small_gray_triangle@3x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/common/triangle_icon_on.imageset/Contents.json",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/common/triangle_icon_on.imageset/small_orange_triangle@2x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/common/triangle_icon_on.imageset/small_orange_triangle@3x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/common/unchecked_icon.imageset/Contents.json",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/common/unchecked_icon.imageset/unchecked_icon@2x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/common/unchecked_icon.imageset/unchecked_icon@3x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/Contents.json",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/login/camera.imageset/camera@2x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/login/camera.imageset/camera@3x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/login/camera.imageset/Contents.json",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/login/Contents.json",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/login/login-camera.imageset/Contents.json",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/login/login-camera.imageset/login-camera@2x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/login/login-camera.imageset/login-camera@3x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/login/login_delete.imageset/Contents.json",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/login/login_delete.imageset/login_delete@2x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/login/login_delete.imageset/login_delete@3x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/My/Contents.json",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/My/whitDeleteImg.imageset/Contents.json",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/My/whitDeleteImg.imageset/rectangle577@3x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/My/whitDeleteImg.imageset/whitDeleteImg@2x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/search/ascent_icon.imageset/ascent_icon@2x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/search/ascent_icon.imageset/ascent_icon@3x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/search/ascent_icon.imageset/Contents.json",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/search/Contents.json",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/search/delete_button.imageset/Contents.json",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/search/delete_button.imageset/delete_button@2x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/search/delete_button.imageset/delete_button@3x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/search/descent_icon.imageset/Contents.json",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/search/descent_icon.imageset/descent_icon@2x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/search/descent_icon.imageset/descent_icon@3x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/search/image_close_icon.imageset/Contents.json",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/search/image_close_icon.imageset/image_close_icon@2x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/search/image_close_icon.imageset/image_close_icon@3x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/SeekCar/Contents.json",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/SeekCar/seekCar_quote_bg0.imageset/Contents.json",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/SeekCar/seekCar_quote_bg0.imageset/seekCar_quote_bg0@2x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/SeekCar/seekCar_quote_bg0.imageset/seekCar_quote_bg0@3x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/SeekCar/seekCar_quote_bg1.imageset/Contents.json",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/SeekCar/seekCar_quote_bg1.imageset/seekCar_quote_bg1@2x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/SeekCar/seekCar_quote_bg1.imageset/seekCar_quote_bg1@3x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/SeekCar/seekCar_quote_bg2.imageset/Contents.json",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/SeekCar/seekCar_quote_bg2.imageset/seekCar_quote_bg2@2x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/SeekCar/seekCar_quote_bg2.imageset/seekCar_quote_bg2@3x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/SeekCar/seekCar_receive_arrow.imageset/Contents.json",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/SeekCar/seekCar_receive_arrow.imageset/seekCar_receive_arrow@2x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/SeekCar/seekCar_receive_arrow.imageset/seekCar_receive_arrow@3x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/SeekCar/visitor_default.imageset/Contents.json",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/SeekCar/visitor_default.imageset/group26@3x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/SeekCar/visitor_default.imageset/visitor_default@2x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/TKContactPicker/TKContactsMultiPickerController.xib",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/TKContactPicker/TKGroupPickerController.xib",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/TKContactPicker/TKNoContactViewController.xib",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/TKContactPicker/uncheckBox.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/TKContactPicker/uncheckBox@2x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/CarSourceDetail",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/CarSourceDetail/delete_photo.imageset",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/CarSourceDetail/publish_badge.imageset",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/CarSourceDetail/publish_cancel.imageset",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/common",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/common/add_photo_icon.imageset",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/common/cell_arrow.imageset",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/common/checked_icon.imageset",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/common/delete_photo_icon.imageset",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/common/icon_gps.imageset",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/common/no_image.imageset",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/common/no_network.imageset",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/common/triangle_icon_off.imageset",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/common/triangle_icon_on.imageset",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/common/unchecked_icon.imageset",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/login",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/login/camera.imageset",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/login/login-camera.imageset",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/login/login_delete.imageset",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/My",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/My/whitDeleteImg.imageset",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/search",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/search/ascent_icon.imageset",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/search/delete_button.imageset",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/search/descent_icon.imageset",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/search/image_close_icon.imageset",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/SeekCar",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/SeekCar/seekCar_quote_bg0.imageset",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/SeekCar/seekCar_quote_bg1.imageset",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/SeekCar/seekCar_quote_bg2.imageset",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/SeekCar/seekCar_receive_arrow.imageset",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/Assets.xcassets/SeekCar/visitor_default.imageset",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/CellXib",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Assets/TKContactPicker",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Classes/B2BWidget/MHCB2BAreaProvinceCityViewController/Data/areaInfo.plist",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Classes/B2BWidget/MHCB2BAreaProvinceCityViewController/Data/provinceInfo.plist",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Classes/B2BWidget/MHCB2BProvinceCityPickerView/Data/citys.plist",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Classes/B2BWidget/MHCB2BShareTool/ShareToolImage/share_tool_pyq@2x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Classes/B2BWidget/MHCB2BShareTool/ShareToolImage/share_tool_sms@2x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Classes/B2BWidget/MHCB2BShareTool/ShareToolImage/share_tool_sms@3x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Classes/B2BWidget/MHCB2BShareTool/ShareToolImage/share_tool_weixin@2x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Classes/B2BWidget/MHCB2BShareTool/ShareToolImage/share_tool_weixin@3x.png",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Classes/B2BWidget/view/MHCB2BAuthUploadImgCell.xib",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Classes/B2BWidget/view/MHCB2BInputCell.xib",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Classes/B2BWidget/view/MHCB2BLogisticsAddCell.xib",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Classes/B2BWidget/view/MHCB2BLogisticsDeleteCarCell.xib",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Classes/B2BWidget/view/MHCB2BPVDataCell.xib",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Classes/B2BWidget/view/MHCB2BSeekCarMisMatchPVDataCell.xib",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Classes/B2BWidget/view/MHCB2BSeekCarQuoteCell.xib",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Classes/B2BWidget/view/MHCB2BSourceSimpleCell.xib",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Classes/B2BWidget/view/MHCB2BSwitchTableViewCell.xib",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Classes/B2BWidget/view/MHCB2BTVSectionTitleHeaderView.xib",
+				"${PODS_ROOT}/MHCB2BBaseWrapper/MHCB2BBaseWrapper/Classes/B2BWidget/view/MHCB2BVisitorCell.xib",
+				"${PODS_ROOT}/MHCBaseWrapper/MHCBaseWrapper/Assets/Assets.xcassets/common/checkmark.imageset/checkmark@2x.png",
+				"${PODS_ROOT}/MHCBaseWrapper/MHCBaseWrapper/Assets/Assets.xcassets/common/checkmark.imageset/checkmark@3x.png",
+				"${PODS_ROOT}/MHCBaseWrapper/MHCBaseWrapper/Assets/Assets.xcassets/common/checkmark.imageset/Contents.json",
+				"${PODS_ROOT}/MHCBaseWrapper/MHCBaseWrapper/Assets/Assets.xcassets/common/Contents.json",
+				"${PODS_ROOT}/MHCBaseWrapper/MHCBaseWrapper/Assets/Assets.xcassets/common/crossmark.imageset/Contents.json",
+				"${PODS_ROOT}/MHCBaseWrapper/MHCBaseWrapper/Assets/Assets.xcassets/common/crossmark.imageset/crossmark@2x.png",
+				"${PODS_ROOT}/MHCBaseWrapper/MHCBaseWrapper/Assets/Assets.xcassets/common/crossmark.imageset/crossmark@3x.png",
+				"${PODS_ROOT}/MHCBaseWrapper/MHCBaseWrapper/Assets/Assets.xcassets/common/nav_back.imageset/Contents.json",
+				"${PODS_ROOT}/MHCBaseWrapper/MHCBaseWrapper/Assets/Assets.xcassets/common/nav_back.imageset/Group 28@2x.png",
+				"${PODS_ROOT}/MHCBaseWrapper/MHCBaseWrapper/Assets/Assets.xcassets/common/nav_back.imageset/Group 28@3x.png",
+				"${PODS_ROOT}/MHCBaseWrapper/MHCBaseWrapper/Assets/Assets.xcassets/common/search_icon.imageset/Contents.json",
+				"${PODS_ROOT}/MHCBaseWrapper/MHCBaseWrapper/Assets/Assets.xcassets/common/search_icon.imageset/search_icon@2x.png",
+				"${PODS_ROOT}/MHCBaseWrapper/MHCBaseWrapper/Assets/Assets.xcassets/common/search_icon.imageset/search_icon@3x.png",
+				"${PODS_ROOT}/MHCBaseWrapper/MHCBaseWrapper/Assets/Assets.xcassets/Contents.json",
+				"${PODS_ROOT}/MHCBaseWrapper/MHCBaseWrapper/Assets/Assets.xcassets/DMS/Contents.json",
+				"${PODS_ROOT}/MHCBaseWrapper/MHCBaseWrapper/Assets/Assets.xcassets/DMS/dms_blank_source.imageset/Contents.json",
+				"${PODS_ROOT}/MHCBaseWrapper/MHCBaseWrapper/Assets/Assets.xcassets/DMS/dms_blank_source.imageset/dms_blank_source@2x.png",
+				"${PODS_ROOT}/MHCBaseWrapper/MHCBaseWrapper/Assets/Assets.xcassets/DMS/dms_blank_source.imageset/dms_blank_source@3x.png",
+				"${PODS_ROOT}/MHCBaseWrapper/MHCBaseWrapper/Assets/Assets.xcassets/search/Contents.json",
+				"${PODS_ROOT}/MHCBaseWrapper/MHCBaseWrapper/Assets/Assets.xcassets/search/fold_button.imageset/Contents.json",
+				"${PODS_ROOT}/MHCBaseWrapper/MHCBaseWrapper/Assets/Assets.xcassets/search/fold_button.imageset/fold_button@2x.png",
+				"${PODS_ROOT}/MHCBaseWrapper/MHCBaseWrapper/Assets/Assets.xcassets/search/fold_button.imageset/fold_button@3x.png",
+				"${PODS_ROOT}/MHCBaseWrapper/MHCBaseWrapper/Assets/Assets.xcassets/search/small_gray_triangle.imageset/Contents.json",
+				"${PODS_ROOT}/MHCBaseWrapper/MHCBaseWrapper/Assets/Assets.xcassets/search/small_gray_triangle.imageset/small_gray_triangle@2x.png",
+				"${PODS_ROOT}/MHCBaseWrapper/MHCBaseWrapper/Assets/Assets.xcassets/search/small_gray_triangle.imageset/small_gray_triangle@3x.png",
+				"${PODS_ROOT}/MHCBaseWrapper/MHCBaseWrapper/Assets/Assets.xcassets/search/small_orange_triangle.imageset/Contents.json",
+				"${PODS_ROOT}/MHCBaseWrapper/MHCBaseWrapper/Assets/Assets.xcassets/search/small_orange_triangle.imageset/small_orange_triangle@2x.png",
+				"${PODS_ROOT}/MHCBaseWrapper/MHCBaseWrapper/Assets/Assets.xcassets/search/small_orange_triangle.imageset/small_orange_triangle@3x.png",
+				"${PODS_ROOT}/MHCBaseWrapper/MHCBaseWrapper/Assets/Widget/MHCB2BGeneralEmptyViewController.xib",
+				"${PODS_ROOT}/MHCBaseWrapper/MHCBaseWrapper/Assets/Assets.xcassets",
+				"${PODS_ROOT}/MHCBaseWrapper/MHCBaseWrapper/Assets/Assets.xcassets/common",
+				"${PODS_ROOT}/MHCBaseWrapper/MHCBaseWrapper/Assets/Assets.xcassets/common/checkmark.imageset",
+				"${PODS_ROOT}/MHCBaseWrapper/MHCBaseWrapper/Assets/Assets.xcassets/common/crossmark.imageset",
+				"${PODS_ROOT}/MHCBaseWrapper/MHCBaseWrapper/Assets/Assets.xcassets/common/nav_back.imageset",
+				"${PODS_ROOT}/MHCBaseWrapper/MHCBaseWrapper/Assets/Assets.xcassets/common/search_icon.imageset",
+				"${PODS_ROOT}/MHCBaseWrapper/MHCBaseWrapper/Assets/Assets.xcassets/DMS",
+				"${PODS_ROOT}/MHCBaseWrapper/MHCBaseWrapper/Assets/Assets.xcassets/DMS/dms_blank_source.imageset",
+				"${PODS_ROOT}/MHCBaseWrapper/MHCBaseWrapper/Assets/Assets.xcassets/search",
+				"${PODS_ROOT}/MHCBaseWrapper/MHCBaseWrapper/Assets/Assets.xcassets/search/fold_button.imageset",
+				"${PODS_ROOT}/MHCBaseWrapper/MHCBaseWrapper/Assets/Assets.xcassets/search/small_gray_triangle.imageset",
+				"${PODS_ROOT}/MHCBaseWrapper/MHCBaseWrapper/Assets/Assets.xcassets/search/small_orange_triangle.imageset",
+				"${PODS_ROOT}/MHCBaseWrapper/MHCBaseWrapper/Assets/Widget",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MHCBaseWrapper/MHCHttpManager.bundle",
+				"${PODS_ROOT}/MHCThirdWrapper/MHCThirdWrapper/Assets/Alipay/AlipaySDK.bundle/bar@2x.png",
+				"${PODS_ROOT}/MHCThirdWrapper/MHCThirdWrapper/Assets/Alipay/AlipaySDK.bundle/refresh@2x.png",
+				"${PODS_ROOT}/MHCThirdWrapper/MHCThirdWrapper/Assets/Alipay/AlipaySDK.bundle/refresh_click@2x.png",
+				"${PODS_ROOT}/MHCThirdWrapper/MHCThirdWrapper/Assets/Alipay/AlipaySDK.bundle/shutdown@2x.png",
+				"${PODS_ROOT}/MHCThirdWrapper/MHCThirdWrapper/Assets/Alipay/AlipaySDK.bundle/shutdown_click@2x.png",
+				"${PODS_ROOT}/MHCThirdWrapper/MHCThirdWrapper/Assets/Assets.xcassets/Contents.json",
+				"${PODS_ROOT}/MHCThirdWrapper/MHCThirdWrapper/Assets/Assets.xcassets/loan_credit_circle.imageset/Contents.json",
+				"${PODS_ROOT}/MHCThirdWrapper/MHCThirdWrapper/Assets/Assets.xcassets/loan_credit_circle.imageset/loan_credit_circle@2x.png",
+				"${PODS_ROOT}/MHCThirdWrapper/MHCThirdWrapper/Assets/Assets.xcassets/loan_credit_circle.imageset/loan_credit_circle@3x.png",
+				"${PODS_ROOT}/MHCThirdWrapper/MHCThirdWrapper/Assets/Assets.xcassets/loan_credit_point.imageset/Contents.json",
+				"${PODS_ROOT}/MHCThirdWrapper/MHCThirdWrapper/Assets/Assets.xcassets/loan_credit_point.imageset/pointCircle@2x.png",
+				"${PODS_ROOT}/MHCThirdWrapper/MHCThirdWrapper/Assets/Assets.xcassets/loan_credit_point.imageset/pointCircle@3x.png",
+				"${PODS_ROOT}/MHCThirdWrapper/MHCThirdWrapper/Assets/Alipay",
+				"${PODS_ROOT}/MHCThirdWrapper/MHCThirdWrapper/Assets/Alipay/AlipaySDK.bundle",
+				"${PODS_ROOT}/MHCThirdWrapper/MHCThirdWrapper/Assets/Assets.xcassets",
+				"${PODS_ROOT}/MHCThirdWrapper/MHCThirdWrapper/Assets/Assets.xcassets/loan_credit_circle.imageset",
+				"${PODS_ROOT}/MHCThirdWrapper/MHCThirdWrapper/Assets/Assets.xcassets/loan_credit_point.imageset",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/QIYU_iOS_SDK/SDK/QYResource.bundle",
+				"${PODS_ROOT}/SGQRCode/SGQRCode/SGQRCode.bundle",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
+				"${PODS_ROOT}/WeexSDK/pre-build/native-bundle-main.js",
+				"${PODS_ROOT}/WeexSDK/ios/sdk/WeexSDK/Resources/wx_load_error@3x.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ATSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/en.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zh-Hans.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Contents.json",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/delete_photo@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/delete_photo@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Group 9@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/publish_badge@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Group 7@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/publish_cancel@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/add_photo_icon@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/add_photo_icon@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Group 29@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Group 29@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Rectangle 213 Copy + Rectangle 212 + Rectangle 212 Copy Copy@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Rectangle 213 Copy + Rectangle 212 + Rectangle 212 Copy Copy@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/delete_photo_icon@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/delete_photo_icon@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_gps@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_gps@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/no_image@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/no_image@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/no_network@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/no_network@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/small_gray_triangle@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/small_gray_triangle@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/small_orange_triangle@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/small_orange_triangle@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/unchecked_icon@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/unchecked_icon@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/camera@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/camera@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/login-camera@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/login-camera@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/login_delete@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/login_delete@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/rectangle577@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/whitDeleteImg@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ascent_icon@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ascent_icon@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/delete_button@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/delete_button@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/descent_icon@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/descent_icon@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/image_close_icon@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/image_close_icon@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/seekCar_quote_bg0@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/seekCar_quote_bg0@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/seekCar_quote_bg1@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/seekCar_quote_bg1@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/seekCar_quote_bg2@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/seekCar_quote_bg2@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/seekCar_receive_arrow@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/seekCar_receive_arrow@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/group26@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/visitor_default@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TKContactsMultiPickerController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TKGroupPickerController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TKNoContactViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/uncheckBox.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/uncheckBox@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Assets.xcassets",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CarSourceDetail",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/delete_photo.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/publish_badge.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/publish_cancel.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/common",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/add_photo_icon.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/cell_arrow.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/checked_icon.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/delete_photo_icon.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_gps.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/no_image.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/no_network.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/triangle_icon_off.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/triangle_icon_on.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/unchecked_icon.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/login",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/camera.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/login-camera.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/login_delete.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/My",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/whitDeleteImg.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/search",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ascent_icon.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/delete_button.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/descent_icon.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/image_close_icon.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SeekCar",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/seekCar_quote_bg0.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/seekCar_quote_bg1.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/seekCar_quote_bg2.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/seekCar_receive_arrow.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/visitor_default.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CellXib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TKContactPicker",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/areaInfo.plist",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/provinceInfo.plist",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/citys.plist",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/share_tool_pyq@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/share_tool_sms@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/share_tool_sms@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/share_tool_weixin@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/share_tool_weixin@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MHCB2BAuthUploadImgCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MHCB2BInputCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MHCB2BLogisticsAddCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MHCB2BLogisticsDeleteCarCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MHCB2BPVDataCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MHCB2BSeekCarMisMatchPVDataCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MHCB2BSeekCarQuoteCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MHCB2BSourceSimpleCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MHCB2BSwitchTableViewCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MHCB2BTVSectionTitleHeaderView.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MHCB2BVisitorCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/checkmark@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/checkmark@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/crossmark@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/crossmark@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Group 28@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Group 28@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/search_icon@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/search_icon@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/dms_blank_source@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/dms_blank_source@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/fold_button@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/fold_button@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MHCB2BGeneralEmptyViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/checkmark.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/crossmark.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/nav_back.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/search_icon.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DMS",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/dms_blank_source.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/fold_button.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/small_gray_triangle.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/small_orange_triangle.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Widget",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MHCHttpManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bar@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/refresh@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/refresh_click@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/shutdown@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/shutdown_click@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/loan_credit_circle@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/loan_credit_circle@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pointCircle@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pointCircle@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Alipay",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AlipaySDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/loan_credit_circle.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/loan_credit_point.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QYResource.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SGQRCode.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/native-bundle-main.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wx_load_error@3x.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeexDemo/Pods-WeexDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9624F4C87A45AAAC0E262BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WeexDemo/Pods-WeexDemo-frameworks.sh",
+				"${PODS_ROOT}/MHCBaseWrapper/MHCBaseWrapper/Classes/Secure/MHCSecure.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MHCSecure.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeexDemo/Pods-WeexDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		775BEE771C1E8ECC008D1629 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E5DC5F213E80B100D67EC9 /* WXATViewHierarchyPlugin.m in Sources */,
+				04E5DC60213E80B100D67EC9 /* WXScannerHistoryVC.m in Sources */,
+				04E5DC5E213E80B100D67EC9 /* WXATLoggerPlugin.m in Sources */,
+				0A3122AF1E1F41E30041B972 /* WeexSDKManager.m in Sources */,
+				0A4A05FA1E0405070046E1BE /* WXDemoViewController.m in Sources */,
+				041A0AB1216B4DFB0031C128 /* WXImagePicker.m in Sources */,
+				04E5DC61213E80B100D67EC9 /* WXScannerVC.m in Sources */,
+				04E5DC5D213E80B100D67EC9 /* DebugAnzlyzer.m in Sources */,
+				775BEE831C1E8ECC008D1629 /* AppDelegate.m in Sources */,
+				0A4A05F91E0405070046E1BE /* UIViewController+WXDemoNaviBar.m in Sources */,
+				775BEE801C1E8ECC008D1629 /* main.m in Sources */,
+				0A7758D71EA0D39C00AE9815 /* WXImgLoaderDefaultImpl.m in Sources */,
+				04E5DC64213E81E800D67EC9 /* WXATScannerPlugin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775BEE901C1E8ECC008D1629 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775BEE991C1E8ECC008D1629 /* WeexDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		775BEE961C1E8ECC008D1629 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 775BEE7A1C1E8ECC008D1629 /* WeexDemo */;
+			targetProxy = 775BEE951C1E8ECC008D1629 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		775BEEA61C1E8ECC008D1629 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		775BEEA71C1E8ECC008D1629 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		775BEEA91C1E8ECC008D1629 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E838291E72D02CC3C36A86A4 /* Pods-WeexDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WeexDemo",
+					"$(PROJECT_DIR)",
+				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = "WeexDemo/WeexDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/SocketRocket\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/WeexPlugin\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-licucore",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devhy.wmt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		775BEEAA1C1E8ECC008D1629 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37DB381D5815C06F147D4D51 /* Pods-WeexDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WeexDemo",
+					"$(PROJECT_DIR)",
+				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = "WeexDemo/WeexDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/SocketRocket\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/WeexPlugin\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-licucore",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devhy.wmt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		775BEEAC1C1E8ECC008D1629 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WeexDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taobao.WeexDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeexDemo.app/WeexDemo";
+			};
+			name = Debug;
+		};
+		775BEEAD1C1E8ECC008D1629 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WeexDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taobao.WeexDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeexDemo.app/WeexDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		775BEE761C1E8ECC008D1629 /* Build configuration list for PBXProject "WeexDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775BEEA61C1E8ECC008D1629 /* Debug */,
+				775BEEA71C1E8ECC008D1629 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		775BEEA81C1E8ECC008D1629 /* Build configuration list for PBXNativeTarget "WeexDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775BEEA91C1E8ECC008D1629 /* Debug */,
+				775BEEAA1C1E8ECC008D1629 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		775BEEAB1C1E8ECC008D1629 /* Build configuration list for PBXNativeTarget "WeexDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775BEEAC1C1E8ECC008D1629 /* Debug */,
+				775BEEAD1C1E8ECC008D1629 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 775BEE731C1E8ECC008D1629 /* Project object */;
+}
